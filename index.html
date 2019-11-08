@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>
+Path finder
+</title>
+<style>
+#startPath{
+background-color:green;
+color:black;
+width:100px;
+height:40px;
+position:absolute;
+left:500px;
+top:350px;
+
+}
+#blockPath{
+background-color:black;
+color:white;
+width:100px;
+height:40px;
+position:absolute;
+left:500px;
+top:150px;
+}
+#locateDestination{
+background-color:gray;
+color:black;
+width:100px;
+height:40px;
+position:absolute;
+left:500px;
+top:250px;
+}
+#locateSource{
+background-color:gray;
+color:black;
+width:100px;
+height:40px;
+position:absolute;
+left:500px;
+top:50px;
+}
+</style>
+</head>
+<body>
+<canvas id="canvas">
+</canvas>
+<button id="locateSource" onclick="locateSource()"> Source</button>
+<button id="locateDestination" onclick="locateDestination()">Destination</button>
+<button id="blockPath" onclick="closePath()"> Block</button>
+<button id="startPath" onclick="startPath()"> Start</button>
+<script src="./index.js"></script>
+</body>
+</html>
